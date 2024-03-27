@@ -39,7 +39,9 @@ namespace TriviaAppClean.ViewModels
             }
             else
             {
-                await Shell.Current.DisplayAlert("Login", $"Login Succeed! for {u.Name} with {u.Questions.Count} Questions", "ok");
+                await Shell.Current.DisplayAlert("Login", $"Login Succeed! for {u.Name} with {u.Questions.Count} Questions now update user", "ok");
+                
+
             }
         }
 
